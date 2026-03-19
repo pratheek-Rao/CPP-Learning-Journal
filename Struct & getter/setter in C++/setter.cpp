@@ -27,6 +27,6 @@ class Stove{
 int main(){
     Stove stove;
     stove.setTemp(7);
-    std::cout<<"the temp is"<<stove.getTemp();
+    std::cout<<"the temp of stove is"<<stove.getTemp();
     return 0;
 }
